@@ -12,6 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
        
         #  we indicate that if we enter another array, our "inverse" variable has a null value.
         #  indicamos que si ingresamos otra matriz, nuestra variable "inversa" tenga un valor nulo.
+        
         inversa <- NULL
         set <- function(y) {
                 x <<- y
